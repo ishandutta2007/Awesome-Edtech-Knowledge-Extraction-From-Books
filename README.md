@@ -5,11 +5,14 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books"><img src="https://img.shields.io/badge/Awesome-EdTech-FF5722?style=flat-square&logo=awesomelists&logoColor=white" alt="Awesome"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books?style=social&color=white" alt="GitHub stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books?style=social&color=white" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007"><img src="https://img.shields.io/github/followers/ishandutta2007?style=social&color=white" alt="GitHub followers" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 ---
@@ -35,8 +38,9 @@ Whether you are building next-generation educational software, training domain-s
 - [💻 Open-Source GitHub Projects (Ranked by Stars)](#-open-source-github-projects-ranked-by-stars)
 - [🔍 Key Technological Architecture Patterns](#-key-technological-architecture-patterns)
 - [🛠️ How to Contribute](#️-how-to-contribute)
+- [📈 Star History](#-star-history)
 - [⚠️ Disclaimer](#️-disclaimer)
-- [💖 Support & Community](#-support--community)
+- [💖 Support & Sponsorship](#-support--sponsorship)
 
 ---
 
@@ -141,15 +145,27 @@ We actively welcome contributions from developers, researchers, and EdTech pract
 
 ---
 
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Edtech-Knowledge-Extraction-From-Books&type=date&legend=top-left)
+
+---
+
 ## ⚠️ Disclaimer
 
 All trademarks, logos, and brand names are the property of their respective owners. Company valuations, revenue estimations, and subscription pricing are referenced from publicly disclosed financial filings, company websites, and industry market reports as of 2026 and are subject to change.
 
 ---
 
-## 💖 Support & Community
+## 💖 Support & Sponsorship
 
-If you find this curated collection valuable for your studies, engineering, or research:
-- ⭐ **Star this repository** to help other learners and builders discover it!
-- 📢 **Share with your network** on LinkedIn, X/Twitter, or Reddit.
-- 💬 **Open an Issue or Discussion** to suggest emerging tools or collaborative EdTech ideas.
+Thank you for exploring and utilizing **Awesome-Edtech-Knowledge-Extraction-From-Books**! 🌟
+
+Maintaining this high-standard curated repository, tracking cutting-edge AI breakthroughs in document extraction, and updating commercial market movements takes ongoing effort and research. 
+
+If this resource has helped your research, career, or engineering work, please consider supporting the project:
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and contribute** to expand our catalog of open-source pipelines.
+- 📢 **Share with your colleagues** on GitHub, X/Twitter, and LinkedIn.
+- ☕ **Buy me a coffee**: Support ongoing maintenance directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
