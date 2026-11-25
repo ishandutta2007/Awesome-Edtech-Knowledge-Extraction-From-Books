@@ -1,0 +1,169 @@
+<svg width="100%" height="280" viewBox="0 0 1200 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Background Linear Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0d1527" />
+      <stop offset="100%" stop-color="#050811" />
+    </linearGradient>
+
+    <!-- Glowing Orbs Gradients -->
+    <radialGradient id="cyanGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00d2ff" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#00d2ff" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9d4edd" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#9d4edd" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#ffb703" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Text Linear Gradients -->
+    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.9" />
+    </linearGradient>
+
+    <!-- Subtle Tech Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.5" stroke-opacity="0.3" />
+    </pattern>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 38px;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      fill: #94a3b8;
+    }
+    .pill-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 13px;
+      fill: #e2e8f0;
+    }
+    .pulse-circle {
+      animation: pulse 4s ease-in-out infinite alternate;
+    }
+    .pulse-circle-rev {
+      animation: pulseRev 5s ease-in-out infinite alternate;
+    }
+    .flow-line {
+      stroke-dasharray: 8 6;
+      animation: dash 15s linear infinite;
+    }
+    .float-card {
+      animation: float 6s ease-in-out infinite alternate;
+    }
+    @keyframes dash {
+      to {
+        stroke-dashoffset: -100;
+      }
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); opacity: 0.35; }
+      100% { transform: scale(1.25); opacity: 0.65; }
+    }
+    @keyframes pulseRev {
+      0% { transform: scale(1.15); opacity: 0.3; }
+      100% { transform: scale(0.85); opacity: 0.6; }
+    }
+    @keyframes float {
+      0% { transform: translateY(0px); }
+      100% { transform: translateY(-8px); }
+    }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="280" rx="16" fill="url(#bgGrad)" />
+  <rect width="1200" height="280" rx="16" fill="url(#grid)" />
+
+  <!-- Dynamic Glowing Orbs in Background -->
+  <circle class="pulse-circle" cx="180" cy="80" r="140" fill="url(#cyanGlow)" />
+  <circle class="pulse-circle-rev" cx="1020" cy="180" r="160" fill="url(#purpleGlow)" />
+  <circle class="pulse-circle" cx="600" cy="220" r="110" fill="url(#amberGlow)" />
+
+  <!-- Animated Dynamic Data Stream / Flow Lines (Background) -->
+  <g opacity="0.35">
+    <path class="flow-line" d="M 50 200 C 300 240, 500 160, 750 220 S 1150 160, 1180 180" fill="none" stroke="#38bdf8" stroke-width="2" />
+    <path class="flow-line" d="M 30 70 C 250 30, 480 110, 800 50 S 1100 100, 1170 70" fill="none" stroke="#a855f7" stroke-width="1.5" />
+    <circle cx="280" cy="190" r="3" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="820" cy="65" r="3.5" fill="#c084fc">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+
+  <!-- Foreground Content: Header Icon, Title & Subtitle -->
+  <!-- Main Title -->
+  <g transform="translate(600, 75)">
+    <text class="title-text" text-anchor="middle" fill="url(#titleGrad)">
+      📚 Awesome EdTech &amp; Knowledge Extraction
+    </text>
+  </g>
+
+  <!-- Subtitle -->
+  <g transform="translate(600, 112)">
+    <text class="subtitle-text" text-anchor="middle">
+      Curated Pipelines: Textbooks &amp; Books ➔ Knowledge Graphs, Skill Trees, Active Recall &amp; AI Tutors
+    </text>
+  </g>
+
+  <!-- Interactive / Dynamic Foreground Feature Badges -->
+  <g transform="translate(130, 155)">
+    <!-- Pill 1: Document OCR & Layout -->
+    <g class="float-card" transform="translate(0, 0)">
+      <rect width="210" height="42" rx="21" fill="url(#badgeGrad)" stroke="#38bdf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <text class="pill-text" x="105" y="26" text-anchor="middle">📄 Deep Textbook OCR</text>
+    </g>
+
+    <!-- Pill 2: Knowledge Graphs & RAG -->
+    <g class="float-card" transform="translate(230, -4)">
+      <rect width="230" height="42" rx="21" fill="url(#badgeGrad)" stroke="#818cf8" stroke-width="1.2" stroke-opacity="0.6" />
+      <text class="pill-text" x="115" y="26" text-anchor="middle">🕸️ Knowledge Graphs &amp; RAG</text>
+    </g>
+
+    <!-- Pill 3: Skill Trees & Mastery -->
+    <g class="float-card" transform="translate(480, 0)">
+      <rect width="220" height="42" rx="21" fill="url(#badgeGrad)" stroke="#c084fc" stroke-width="1.2" stroke-opacity="0.6" />
+      <text class="pill-text" x="110" y="26" text-anchor="middle">🎯 Book-to-Skill Roadmaps</text>
+    </g>
+
+    <!-- Pill 4: Spaced Repetition -->
+    <g class="float-card" transform="translate(720, -4)">
+      <rect width="210" height="42" rx="21" fill="url(#badgeGrad)" stroke="#f472b6" stroke-width="1.2" stroke-opacity="0.6" />
+      <text class="pill-text" x="105" y="26" text-anchor="middle">🧠 Spaced Repetition &amp; Quiz</text>
+    </g>
+  </g>
+
+  <!-- Bottom Dynamic Status Indicator -->
+  <g transform="translate(600, 238)">
+    <circle cx="-135" cy="-4" r="4" fill="#10b981">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite" />
+      <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600" fill="#94a3b8" text-anchor="middle">
+      <tspan fill="#34d399">ACTIVE CATALOG</tspan> • 10 Top SaaS Leaders • 12 Ranked Open-Source GitHub Repositories • 2026 Edition
+    </text>
+  </g>
+
+  <!-- Border Highlight -->
+  <rect x="0.5" y="0.5" width="1199" height="279" rx="15.5" fill="none" stroke="#334155" stroke-opacity="0.6" />
+</svg>
